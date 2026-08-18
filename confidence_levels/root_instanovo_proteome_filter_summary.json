@@ -1,0 +1,25 @@
+{
+  "proteome_protein_count": 147506,
+  "proteome_cache_path": "/home/cle1g21/RPC/databases/UP000005640_canonical.fasta",
+  "files": {
+    "01625b_GB2-TUM_first_pool_10_01_01-3xHCD-1h-R1_predictions.csv": {
+      "input_path": "/home/cle1g21/RPC/instanovo_predictions/01625b_GB2-TUM_first_pool_10_01_01-3xHCD-1h-R1_predictions.csv",
+      "output_path": "/home/cle1g21/RPC/instanovo_predictions/filtered_predictions/01625b_GB2-TUM_first_pool_10_01_01-3xHCD-1h-R1_predictions_filtered.csv",
+      "input_rows": 48692,
+      "unique_peptides": 8553,
+      "removed_rows": 33347,
+      "retained_rows": 15345,
+      "elapsed_seconds": 1.6
+    },
+    "Control4_Neo_SN_114_HLA-I_predictions.csv": {
+      "input_path": "/home/cle1g21/RPC/instanovo_predictions/Control4_Neo_SN_114_HLA-I_predictions.csv",
+      "output_path": "/home/cle1g21/RPC/instanovo_predictions/filtered_predictions/Control4_Neo_SN_114_HLA-I_predictions_filtered.csv",
+      "input_rows": 5263584,
+      "unique_peptides": 4853685,
+      "removed_rows": 317157,
+      "retained_rows": 4946427,
+      "elapsed_seconds": 611.2
+    }
+  },
+  "elapsed_seconds": 651.4
+}

@@ -1,0 +1,34 @@
+Input file: /iridisfs/home/cle1g21/RPC/confidence_levels/assembled/master_low.csv
+Total peptides (rows): 71
+Sequence column: predictions
+Score column: log_probs
+Confidence transform: confidence = exp(raw_score) from log-probability
+
+=== Global peptide length (AA) ===
+min=5, max=14, mean=6.789, median=7
+
+=== Global prediction confidence (display scale) ===
+min=0.0930148, max=0.729574, mean=0.504795, median=0.499079
+
+=== Global raw score (log_probs) ===
+min=-2.375, max=-0.315294, mean=-0.72787, median=-0.69499
+
+=== Per length-bin summaries ===
+-- <8 AA: n=62 (87.32%)
+   length AA: min=5, max=7, mean=6.403, median=6
+   confidence: min=0.0930148, max=0.729574, mean=0.509606, median=0.524147
+   raw_score:  min=-2.375, max=-0.315294, mean=-0.72164, median=-0.645986
+-- 8-11 AA [HLA Class I]: n=7 (9.86%)
+   length AA: min=8, max=9, mean=8.429, median=8
+   confidence: min=0.395273, max=0.608742, mean=0.499809, median=0.459825
+   raw_score:  min=-0.928179, max=-0.496361, mean=-0.707991, median=-0.776909
+-- 12-15 AA [HLA Class II]: n=2 (2.82%)
+   length AA: min=12, max=14, mean=13, median=13
+   confidence: min=0.337081, max=0.409138, mean=0.37311, median=0.37311
+   raw_score:  min=-1.08743, max=-0.893702, mean=-0.990567, median=-0.990567
+-- 16-20 AA: n=0 (0.00%)
+   (empty bin; metrics undefined)
+-- 21-30 AA: n=0 (0.00%)
+   (empty bin; metrics undefined)
+-- >30 AA: n=0 (0.00%)
+   (empty bin; metrics undefined)

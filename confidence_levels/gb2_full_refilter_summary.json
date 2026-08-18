@@ -1,0 +1,28 @@
+{
+  "proteome_protein_count": 147506,
+  "validation_sequence_count": 516,
+  "proteome_filter": {
+    "input_path": "/home/cle1g21/RPC/instanovo_predictions/01625b_GB2-TUM_first_pool_10_01_01-3xHCD-1h-R1_predictions.csv",
+    "input_rows": 48692,
+    "unique_peptides": 8553,
+    "removed_rows": 33347,
+    "retained_rows": 15345,
+    "experiment_name_counts_input": {
+      "01625b_GB2-TUM_first_pool_10_01_01-3xHCD-1h-R1": 48192,
+      "01625b_GB2-TUM_first_pool_10_01_01-3xHCD-1h-R1_subset500": 500
+    },
+    "experiment_name_counts_filtered": {
+      "01625b_GB2-TUM_first_pool_10_01_01-3xHCD-1h-R1": 14955,
+      "01625b_GB2-TUM_first_pool_10_01_01-3xHCD-1h-R1_subset500": 390
+    },
+    "output_path": "/home/cle1g21/RPC/instanovo_predictions/filtered_predictions/01625b_GB2-TUM_first_pool_10_01_01-3xHCD-1h-R1_predictions_filtered.csv"
+  },
+  "validation_filter": {
+    "input_rows": 15345,
+    "matched_rows": 0,
+    "unique_matched_sequences": 0,
+    "matched_sequences": [],
+    "output_path": "/home/cle1g21/RPC/confidence_levels/med_instanovo/01625b_GB2-TUM_first_pool_10_01_01-3xHCD-1h-R1_predictions_medInstanovo.csv"
+  },
+  "elapsed_seconds": 57.9
+}

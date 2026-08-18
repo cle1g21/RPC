@@ -1,0 +1,10 @@
+name: pride-species-visualizer
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python>=3.10
+  - requests
+  - pandas
+  - seaborn
+  - matplotlib

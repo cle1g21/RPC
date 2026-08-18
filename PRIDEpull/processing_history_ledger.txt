@@ -1,0 +1,65 @@
+# PRIDEpull Processing History Ledger
+# Append-only audit log. Each block records one file processing run.
+# Do not edit manually — entries are written by src/audit_logger.py
+#
+# Block format:
+#   PRIDE_ACCESSION + ORIGINAL_PRIDE_FILENAME (mandatory header)
+#   TIMESTAMP, PROCESSING_ROUTE, RUN_MODE
+#   File sizes, output CSV path, spectrum/peptide statistics
+#   Cleanup confirmation
+#
+# ================================================================================
+
+================================================================================
+PRIDE_ACCESSION: PXD077080
+ORIGINAL_PRIDE_FILENAME: P1047.mgf
+TIMESTAMP: 2026-07-03T18:51:28Z
+PROCESSING_ROUTE: Native MGF streamed direct
+RUN_MODE: subset (500 spectra)
+--------------------------------------------------------------------------------
+DOWNLOAD_SIZE_BYTES: 129916400
+CONVERTED_MGF_SIZE_BYTES: N/A
+SUBSET_MGF_SIZE_BYTES: N/A
+OUTPUT_CSV: N/A
+OUTPUT_CSV_SIZE_BYTES: N/A
+--------------------------------------------------------------------------------
+SPECTRA_PROCESSED: N/A
+PEPTIDES_SEQUENCED: N/A
+MEAN_PREDICTION_LOG_PROB: N/A
+MEDIAN_PREDICTION_LOG_PROB: N/A
+INSTANOVO_BATCH_SIZE: 32
+INSTANOVO_NUM_WORKERS: 4
+--------------------------------------------------------------------------------
+CLEANUP_DELETED_FILES:
+  - (skipped on failure)
+CLEANUP_STATUS: SKIPPED
+STATUS: FAILED
+ERROR: No connection adapters were found for 'ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2026/04/PXD077080/P1047.mgf'
+================================================================================
+
+================================================================================
+PRIDE_ACCESSION: PXD077080
+ORIGINAL_PRIDE_FILENAME: P1047.mgf
+TIMESTAMP: 2026-07-06T08:19:26Z
+PROCESSING_ROUTE: Native MGF streamed direct
+RUN_MODE: subset (500 spectra)
+--------------------------------------------------------------------------------
+DOWNLOAD_SIZE_BYTES: 129916400
+CONVERTED_MGF_SIZE_BYTES: None
+SUBSET_MGF_SIZE_BYTES: 1610005
+OUTPUT_CSV: N/A
+OUTPUT_CSV_SIZE_BYTES: N/A
+--------------------------------------------------------------------------------
+SPECTRA_PROCESSED: N/A
+PEPTIDES_SEQUENCED: N/A
+MEAN_PREDICTION_LOG_PROB: N/A
+MEDIAN_PREDICTION_LOG_PROB: N/A
+INSTANOVO_BATCH_SIZE: 32
+INSTANOVO_NUM_WORKERS: 4
+--------------------------------------------------------------------------------
+CLEANUP_DELETED_FILES:
+  - (skipped on failure)
+CLEANUP_STATUS: SKIPPED
+STATUS: FAILED
+ERROR: instanovo predict failed with exit code -15
+================================================================================

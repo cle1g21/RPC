@@ -1,0 +1,35 @@
+{
+  "proteome_protein_count": 147506,
+  "validation_sequence_count": 516,
+  "proteome_filter": {
+    "01625b_GB2-TUM_first_pool_10_01_01-3xHCD-1h-R1_predictions.csv": {
+      "input_rows": 500,
+      "unique_peptides": 263,
+      "removed_rows": 110,
+      "retained_rows": 390,
+      "output_path": "/home/cle1g21/RPC/instanovo_predictions/filtered_predictions/01625b_GB2-TUM_first_pool_10_01_01-3xHCD-1h-R1_predictions_filtered.csv"
+    },
+    "Control4_Neo_SN_114_HLA-I_predictions.csv": {
+      "input_rows": 164981,
+      "unique_peptides": 160481,
+      "removed_rows": 8501,
+      "retained_rows": 156480,
+      "output_path": "/home/cle1g21/RPC/instanovo_predictions/filtered_predictions/Control4_Neo_SN_114_HLA-I_predictions_filtered.csv"
+    }
+  },
+  "validation_filter": {
+    "01625b_GB2-TUM_first_pool_10_01_01-3xHCD-1h-R1_predictions_filtered.csv": {
+      "input_rows": 390,
+      "matched_rows": 0,
+      "unique_matched_sequences": 0,
+      "output_path": "/home/cle1g21/RPC/confidence_levels/med_instanovo/01625b_GB2-TUM_first_pool_10_01_01-3xHCD-1h-R1_predictions_medInstanovo.csv"
+    },
+    "Control4_Neo_SN_114_HLA-I_predictions_filtered.csv": {
+      "input_rows": 156480,
+      "matched_rows": 1,
+      "unique_matched_sequences": 1,
+      "output_path": "/home/cle1g21/RPC/confidence_levels/med_instanovo/Control4_Neo_SN_114_HLA-I_predictions_medInstanovo.csv"
+    }
+  },
+  "elapsed_seconds": 73.7
+}

@@ -1,0 +1,77 @@
+{
+  "instanovo_files": [
+    "01625b_GB2-TUM_first_pool_10_01_01-3xHCD-1h-R1_predictions_filtered.csv",
+    "Control4_Neo_SN_114_HLA-I_predictions_filtered.csv"
+  ],
+  "tiers": {
+    "med_instanovo": {
+      "01625b_GB2-TUM_first_pool_10_01_01-3xHCD-1h-R1_predictions_filtered.csv": {
+        "input_rows": 15345,
+        "matched_rows": 0
+      },
+      "Control4_Neo_SN_114_HLA-I_predictions_filtered.csv": {
+        "input_rows": 4946427,
+        "matched_rows": 23
+      }
+    },
+    "by_orf_run": {
+      "ge30aa_orfs": {
+        "orf_file": "merged_orfs_ge30aa.tsv",
+        "low": {
+          "01625b_GB2-TUM_first_pool_10_01_01-3xHCD-1h-R1_predictions_filtered.csv": {
+            "input_rows": 15345,
+            "matched_rows": 0
+          },
+          "Control4_Neo_SN_114_HLA-I_predictions_filtered.csv": {
+            "input_rows": 4946427,
+            "matched_rows": 93
+          }
+        },
+        "med_ntv3": {
+          "input_rows": 402,
+          "matched_rows": 0,
+          "output_path": "/home/cle1g21/RPC/confidence_levels/med_ntv3/merged_orfs_ge30aa_filtered_medNTv3.csv"
+        },
+        "high": {
+          "01625b_GB2-TUM_first_pool_10_01_01-3xHCD-1h-R1_predictions_filtered.csv": {
+            "input_rows": 0,
+            "matched_rows": 0
+          },
+          "Control4_Neo_SN_114_HLA-I_predictions_filtered.csv": {
+            "input_rows": 93,
+            "matched_rows": 0
+          }
+        }
+      },
+      "all_orfs": {
+        "orf_file": "merged_orfs.tsv",
+        "low": {
+          "01625b_GB2-TUM_first_pool_10_01_01-3xHCD-1h-R1_predictions_filtered.csv": {
+            "input_rows": 15345,
+            "matched_rows": 0
+          },
+          "Control4_Neo_SN_114_HLA-I_predictions_filtered.csv": {
+            "input_rows": 4946427,
+            "matched_rows": 94
+          }
+        },
+        "med_ntv3": {
+          "input_rows": 467,
+          "matched_rows": 0,
+          "output_path": "/home/cle1g21/RPC/confidence_levels/med_ntv3/merged_orfs_filtered_medNTv3.csv"
+        },
+        "high": {
+          "01625b_GB2-TUM_first_pool_10_01_01-3xHCD-1h-R1_predictions_filtered.csv": {
+            "input_rows": 0,
+            "matched_rows": 0
+          },
+          "Control4_Neo_SN_114_HLA-I_predictions_filtered.csv": {
+            "input_rows": 94,
+            "matched_rows": 0
+          }
+        }
+      }
+    }
+  },
+  "elapsed_seconds": 336.7
+}
